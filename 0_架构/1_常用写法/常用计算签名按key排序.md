@@ -6,7 +6,7 @@
 
 # 写法
 ## 通过SortedMap接口构建接口
-```
+```Java
 public static String getSign(SortedMap<String, Object> parameters) {
     StringBuilder stringBuilder = new StringBuilder();
     // 所有参与传参的参数按照accsii排序（升序）
@@ -27,6 +27,6 @@ public static String getSign(SortedMap<String, Object> parameters) {
 ```
 
 ## 构建TreeMap调用接口
-```
+```Java
 getSign(new TreeMap<>(paramMap));
 ```
