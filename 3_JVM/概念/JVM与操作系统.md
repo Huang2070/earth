@@ -6,4 +6,4 @@
 
 总结，JVM是平台相关的，但jdk是平台无关的，java平台无关的特性能够实现的原因是，java文件到class文件是通过jdk实现的，与平台无关，转换后的class文件主要是符合jvm的规范就好了，但jvm根据class文件执行程序是平台相关的，但是jvm规范是一致的，jvm平台相关主要体现在相同class二进制代码在不同平台上解释执行为不同的内存实现。
 
-![avatar](./JVM%E5%92%8C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.jpg)
+![avatar](./resource/JVM%E5%92%8C%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.jpg)

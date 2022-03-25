@@ -1,3 +1,21 @@
+- [Java SE / Java EE](#java-se--java-ee)
+  - [HotSpot VM](#hotspot-vm)
+  - [J9 VM](#j9-vm)
+  - [Zing VM](#zing-vm)
+  - [JRockit](#jrockit)
+- [Java SE Embedded](#java-se-embedded)
+- [Java ME](#java-me)
+  - [CLDC-HI](#cldc-hi)
+  - [J9 VM](#j9-vm-1)
+- [Android / Android兼容系统](#android--android兼容系统)
+- [JavaCard](#javacard)
+- [Sun SPOT](#sun-spot)
+- [研究性质的JVM](#研究性质的jvm)
+  - [Jikes RVM](#jikes-rvm)
+  - [Maxine VM](#maxine-vm)
+  - [Graal VM](#graal-vm)
+
+
 要说主流JVM是什么，首先得区分清楚场景。
 
 光谈部署量的话，搞不好现在部署量最多的JVM是Dalvik / ART…虽然Google会告诉大家Dalvik和ART不是“JVM”，但大家都知道骨子里它就是不折不扣的JVM，毫无疑问。它们的设计处处有标注对JVM规范的参考，以保证语义符合JVM规范的要求；那个基于寄存器的字节码设计只是一种实现优化而已。
