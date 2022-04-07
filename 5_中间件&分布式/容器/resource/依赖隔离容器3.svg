@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="140px" preserveAspectRatio="none" style="width:409px;height:140px;background:#FFFFFF;" version="1.1" viewBox="0 0 409 140" width="409px" zoomAndPan="magnify"><defs/><g><!--MD5=[6e8f311b0aa23032184ffba0ef926f91]
+entity App--><g id="elem_App"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="70" x="7" y="43"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="57" y="48"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="55" y="50"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="55" y="54"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="22" y="75.9951">App</text></g><!--MD5=[d4012913e705bc9d46821f546cf0a1ec]
+entity LibA--><g id="elem_LibA"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="72" x="138" y="7"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="190" y="12"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="188" y="14"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="188" y="18"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="153" y="39.9951">LibA</text></g><!--MD5=[d388cfc04914b96344c3f1e7e21ce46d]
+entity LibB--><g id="elem_LibB"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="72" x="138" y="88"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="190" y="93"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="188" y="95"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="188" y="99"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="153" y="120.9951">LibB</text></g><!--MD5=[824064dd66b28b4909c6ad26efe9d413]
+entity LibC--><g id="elem_LibC"><rect fill="#F1F1F1" height="46.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="72" x="331" y="45"/><rect fill="#F1F1F1" height="10" style="stroke:#181818;stroke-width:0.5;" width="15" x="383" y="50"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="381" y="52"/><rect fill="#F1F1F1" height="2" style="stroke:#181818;stroke-width:0.5;" width="4" x="381" y="56"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="346" y="77.9951">LibC</text></g><!--MD5=[c8506585fc29b48e28b38a525186acc2]
+link App to LibA--><g id="link_App_LibA"><path d="M77.156,56.5414 C94.2092,51.819 114.95,46.0754 132.77,41.1407 " fill="none" id="App-to-LibA" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="137.713,39.7718,127.9719,38.3186,132.8943,41.1061,130.1068,46.0284,137.713,39.7718" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[509ad674497949a58ea98ad55d1bd065]
+link App to LibB--><g id="link_App_LibB"><path d="M77.156,77.8232 C94.2092,83.7263 114.95,90.9057 132.77,97.0742 " fill="none" id="App-to-LibB" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="137.713,98.7853,130.5167,92.0612,132.9881,97.1496,127.8997,99.621,137.713,98.7853" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[2d8fc7eda054e02716bb272bda33c789]
+link LibA to LibC--><g id="link_LibA_LibC"><path d="M210.032,36.9698 C242.777,43.4844 291.633,53.2044 325.918,60.0255 " fill="none" id="LibA-to-LibC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="330.867,61.0102,322.8206,55.3308,325.9631,60.0345,321.2595,63.177,330.867,61.0102" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="241" y="40.0669">version 1</text></g><!--MD5=[5dccdefa677ca4eed667c422077e2065]
+link LibB to LibC--><g id="link_LibB_LibC"><path d="M210.032,103.1131 C242.777,95.7413 291.633,84.7423 325.918,77.0237 " fill="none" id="LibB-to-LibC" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="330.867,75.9096,321.2086,73.982,325.9889,77.0068,322.9641,81.787,330.867,75.9096" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="59" x="241" y="80.0669">version 2</text></g><!--MD5=[2e4cc9d7a3ab5e5d876e186032a6a998]
+@startuml
+left to right direction
+[App] - -> [LibA]
+[App] - -> [LibB]
+[LibA] - -> [LibC]:version 1
+[LibB] - -> [LibC]:version 2
+@enduml
+
+PlantUML version 1.2022.4beta1(Unknown compile time)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
