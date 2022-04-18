@@ -1,6 +1,6 @@
 框架/工具/产品在实现的时候，都考虑到了容灾，扩展，负载均衡，于是出现一个配置中心(ConfigServer)的东西来解决这些问题。
 
-![avatar](./resource/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83.gif)
+![avatar](/resource/%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83.gif)
 
 # ConfigServer
 和每个Server/Client之间会作一个实时的心跳检测（因为它们都是建立的Socket长连接），比如几秒钟检测一次。收集每个Server提供的服务的信息，每个Client的信息，整理出一个服务列表.

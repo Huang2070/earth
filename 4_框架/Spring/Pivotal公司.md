@@ -4,7 +4,7 @@
 
 Pivotal公司的开源产品有：Spring 以及 Spring 衍生产品、Web 服务器 Tomcat、缓存中间件 Redis、消息中间件 RabbitMQ、平台即服务的 Cloud Foundry、Greenplum 数据引擎、还有大名鼎鼎的 GemFire（12306 系统解决方案组件之一）。
 
-![avatar](./resource/pivotal.jpeg)
+![avatar](/resource/pivotal.jpeg)
 
 # Pivotal的业务
 Pivotal 的定位是一家下一代云计算和大数据应用相结合的公司，而 VMWare 和原 EMC 的业务方向则依然是软件定义数据中心和信息基础架构。

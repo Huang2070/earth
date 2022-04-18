@@ -8,7 +8,7 @@
 
 早期，web技术主要用于浏览静态页面：
 
-![avatar](./resource/servlet1.png)
+![avatar](/resource/servlet1.png)
 
 然而随着时间发展，用户已经不满足于仅浏览静态页面。用户需要一些交互操作，获取一些动态结果。如果基于HTTP协议实现服务器端软件增强功能太过 复杂，所以需要一些扩展机制来实现用户想要的功能。
 
@@ -18,7 +18,7 @@
 
 这就是接口的含义，就像 USB。
 
-![avatar](./resource/servlet2.png)
+![avatar](/resource/servlet2.png)
 
 早期使用的Web服务器扩展机制是CGI（Common Gateway Interface，公共网关接口）。
 
@@ -38,7 +38,7 @@ Servlet 其实是 Server Applet，全称 Java Servlet，指的是用Java 编写�
 
 没必要把 Servlet 容器做的事情和具体的业务耦合起来，业务反正照着 Servlet 接口实现就行，这样 Servlet 容器就可以加载它和管理它。
 
-![avatar](./resource/servlet3.png)
+![avatar](/resource/servlet3.png)
 
 把请求和哪个 Servlet 对应关系也抽象出来，就是 web.xml 了，咱们在配置里面告诉 Servlet 容器对应关系即可。
 
@@ -75,7 +75,7 @@ Servlet 其实是 Server Applet，全称 Java Servlet，指的是用Java 编写�
 
 从我们的分析一层一层的剥离，一层一层的抽象，相信你对 Web 有了更进一步的认识，我再画个 Tomcat 的分析图，应该就很清晰了。
 
-![avatar](./resource/servlet4.png)
+![avatar](/resource/servlet4.png)
 
 从上面的一步步分析可以看出：其实架构的设计就是一系列相关的抽象。
 
